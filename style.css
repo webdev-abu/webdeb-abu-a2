@@ -46,10 +46,10 @@
  .btn:hover, .btn:focus, .btn.active{
     background-color: transparent;
  }
- #btn-pc{
-    visibility: visible;
+ .btn-pc{
+   display: inline;
  }
- #btn-mobile{
+ .btn-mobile{
     display: none;
  }
  .btn-bg-remove{

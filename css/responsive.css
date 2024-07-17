@@ -34,11 +34,10 @@
         padding: 16px 30px;
         margin-right: 7px;
      }
-     #btn-pc{
-        /* visibility: hidden; */
+     .btn-pc{
         display: none;
      }
-     #btn-mobile{
+     .btn-mobile{
         display: inline;
      }
      .btn-bg-remove{
