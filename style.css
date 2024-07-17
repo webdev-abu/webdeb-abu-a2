@@ -46,8 +46,15 @@
  .btn:hover, .btn:focus, .btn.active{
     background-color: transparent;
  }
+ #btn-pc{
+    visibility: visible;
+ }
+ #btn-mobile{
+    display: none;
+ }
  .btn-bg-remove{
     background-color: transparent;
+    margin-right:0px;
  }
  .btn-bg-remove:hover, .btn-bg-remove:focus, .btn-bg-remove:active{
     background-color: #E6533C;
