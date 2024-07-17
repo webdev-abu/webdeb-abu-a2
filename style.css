@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  @font-face {
+    font-family: miama;
+    src: url(font/Miama/Miama.ttf);
+    font-weight: Regular;
+ }
+
+ @font-face {
+    font-family: mixed;
+    src: url(font/Mixed/Hello-Mixed.otf);
+    font-weight: mixed;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    margin:0 190px;
+    background-color: #000000;
+    border: 1px solid red;
+ }
+ /* share style */
+ .btn{
+    background-color: #E6533C;
+    padding: 16px 48px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1px solid #E6533C;
+    border-radius: 42px;
+    margin-right: 14px;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .btn:hover, .btn:focus, .btn.active{
+    background-color: transparent;
+ }
+ .btn-bg-remove{
+    background-color: transparent;
+ }
+ .btn-bg-remove:hover, .btn-bg-remove:focus, .btn-bg-remove:active{
+    background-color: #E6533C;
+ }
+
+ /* Header style */
+ header{
+    /* background-image: linear-gradient(center center, rgba(17, 17, 17,1), rgba(119, 119, 119,0)); */
+    /* background: linear-gradient(0deg, rgba(119, 119, 119,0), rgba(17,17,17,1) 100%); */
+    background-image: linear-gradient(to top bottom, rgba(119, 119, 119,1), rgba(17, 17, 17,0));
+    background-position: center;
+    margin-top: 57px;
+ }
+ header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ header .navbar .navbar-brand{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+ }
+ header .navbar .nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+ }
+ header .navbar .nav-list .nav-item{
+    list-style: none;
+    padding: 8px 20px;
+    border-radius: 46px;
+    transition: all 0.7s ease-in-out;
+ }
+ header .navbar .nav-list .nav-item .nav-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+ }
+ header .navbar .nav-list .nav-item:hover,
+ header .navbar .nav-list .nav-item:focus,
+ header .navbar .nav-list .nav-item:active{
+    background-color: #E6533C;
+ } 
+ header .navbar .nav-list .active{
+    background-color: #E6533C;
+ }
+ .mobile{
+    display: none;
+ }
+ .mobile i{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+ }
+
+ .bannar{
+    /* background-image:url(images/bannar.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    position: relative; */
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 32px;
+ }
+ .bannar .bannar-content{
+    max-width: 520px;
+    /* padding: 96px 0 76px; */
+ }
+ .bannar .bannar-content .bannar-title{
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 120%;
+ }
+ .bannar .bannar-content .bannar-title span{
+    font-size: 4.8rem;
+    font-family: miama;
+ }
+ .bannar .bannar-content .bannar-subtitle{
+    font-size: 1rem;
+    color: rgba(255, 255, 255,0.5);
+    margin: 28px 0;
+ }
+ .bannar-img{
+    position: relative;
+ }
+.bannar-img img{
+    width: 100%;
+    height: auto;
+ }
+.workout{
+    /* max-width: 193px; */
+    border-radius: 12px;
+    padding: 16px 24px;
+    background-color: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 25%;
+    right: -25%;
+}
+.workout h3{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.workout p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255,0.6);
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.tutorial{
+    /* max-width: 206px; */
+    border-radius: 12px;
+    padding: 20px 23px;
+    background-color: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 10%;
+    left: -20%;
+    /* transform: translateX(50%); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle i{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+.tutorial h3{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.tutorial p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255,0.6);
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+}

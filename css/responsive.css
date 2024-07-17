@@ -1,0 +1,89 @@
+@media screen and (max-width:576px){
+    body{
+        margin:0 20px;
+     }
+     header .navbar .nav-list{
+        display: none;
+     }
+     .mobile{
+        display: block;
+     }
+     .bannar{
+        flex-direction: column;
+        margin-top: 50px;
+     }
+     .bannar .bannar-content{
+        width: 100%;
+     }
+
+     .bannar .bannar-content .bannar-title{
+        width: 258px;
+        font-size: 2.25rem;
+     }
+     .bannar .bannar-content .bannar-title span{
+        font-size: 2.25rem;
+        font-family: miama;
+     }
+     .bannar .bannar-content .bannar-subtitle{
+        width: 280px;
+        font-size: 1rem;
+        color: rgba(255, 255, 255,0.5);
+        margin: 28px 0;
+     }
+     .btn{
+        padding: 16px 40px;
+     }
+     .workout{
+        padding: 12px 18px;
+        top: 48px;
+        right: 6px;
+     }
+     .workout h3{
+        font-size: 1.8rem;
+        color: #FFFFFF;
+    }
+    .workout p{
+        font-size: 0.6rem;
+        color: rgba(255, 255, 255,0.6);
+        line-height: 1.2rem;
+        letter-spacing: 1px;
+    }
+    .tutorial{
+        padding: 15px 17px;
+        bottom: 40%;
+        left: 1%;
+        gap: 9px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
+    .circle i{
+        font-size: 1rem;
+    }
+    .tutorial h3{
+        font-size: 1.1rem;
+    }
+    .tutorial p{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    body{
+        margin:0 30px;
+     }
+     header .navbar .nav-list{
+        gap: 20px;
+     }
+     .mobile{
+        display: none;
+     }
+     .bannar{
+        flex-direction: column;
+        margin-top: 75px;
+     }
+    
+}
+@media screen and (min-width:993px){
+    
+}
