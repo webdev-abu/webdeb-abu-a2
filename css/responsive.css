@@ -2,6 +2,11 @@
     body{
         margin:0 20px;
      }
+     /* shared style */
+     .section-content .section-title{
+      font-size: 2rem;
+    }
+    /* Header style */
      header .navbar .nav-list{
         display: none;
      }
@@ -77,6 +82,31 @@
     .tutorial p{
         font-size: 0.8rem;
     }
+    /* habit responsive */
+    .habits {
+      margin-top: 0px;
+    }
+    .habits .habits-items{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    /* Run Extra responsive */
+    .extra-run {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .extra-run .section-content{
+      width: 100%;
+      margin:0 auto;
+   }
+   .section-btn{
+      width: 100%;
+   }
+   .extra-run .section-content .section-title, .extra-run .section-content .section-description{
+      padding-right: 30px;
+   }
+   .extra-run img{
+      width: 100%;
+   }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     body{
@@ -92,8 +122,22 @@
         flex-direction: column;
         margin-top: 75px;
      }
+      /* habit responsive */
+    
+    .habits .habits-items{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .extra-run .section-content {
+      max-width: 350px;
+    }
+    .section-content .section-title {
+      font-size: 2.25rem;
+    }
     
 }
 @media screen and (min-width:993px){
-    
+   body{
+      margin:0 auto;
+   }
 }
