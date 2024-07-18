@@ -236,6 +236,15 @@
    border-radius: 50%;
    margin-bottom: 30px;
 }
+.habits-item{
+   transition: all 1.2s ease-in-out;
+   padding: 20px;
+}
+.habits-item:hover{
+   background-color: #222222;
+   border-radius: 20px;
+   box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+}
 .habits .habits-items h4{
    font-size: 1.1rem;
    font-weight: 600;
@@ -261,4 +270,36 @@
 }
 .extra-run .section-content .section-description{
    padding: 0;
+}
+/* calculetor style */
+.calculetor{}
+.calculetor .section-content{
+   text-align: start;
+}
+.calculetor .section-content .section-description{
+   padding-left: 0px ;
+   padding-right: 100px;
+}
+.calculetor-items{}
+.calculetor-items .calculetor-table{}
+.calculetor-items .calculetor-table caption{
+   font-size: 1.75rem;
+   font-weight: 900;
+   color: #FFFFFF;
+   margin-bottom: 50px;
+}
+.calculetor-items .calculetor-table .bmi-table{
+   border-collapse: collapse;
+}
+
+.calculetor-items .calculetor-table .bmi-table th, .calculetor-items .calculetor-table .bmi-table td{   
+   border: 1px solid #FFFFFF;
+   font-size: 0.8rem;
+   color: rgba(255, 255, 255,0.5);
+   padding: 15px 20px;
+}
+.calculetor-items .calculetor-table .bmi-table th{
+   font-size: 1rem;
+   color: #FFFFFF;
+
 }
