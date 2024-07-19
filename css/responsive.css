@@ -118,6 +118,13 @@
       padding: 16px 70px;
       cursor: pointer;
     }
+    /* team responsive */
+    .team-members {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .team-members .team-member-area:first-child, .team-members .team-member-area:nth-child(4){
+      display: none;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     body{
