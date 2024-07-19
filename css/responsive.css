@@ -107,6 +107,17 @@
    .extra-run img{
       width: 100%;
    }
+   /* calculetor responsive */
+   .calculetor-items{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 42px;
+   }
+   .submit-btn{
+      padding: 16px 70px;
+      cursor: pointer;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     body{
@@ -133,6 +144,16 @@
     }
     .section-content .section-title {
       font-size: 2.25rem;
+    }
+    /* calculetor responsive */
+   .calculetor-items{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 42px;
+   }
+   .submit-btn{
+      padding: 16px 70px;
     }
     
 }
