@@ -29,6 +29,7 @@
  body{
    background-color: #000000;
  }
+ 
   header, .habits, .extra-run, .calculetor, .calculetor-items, .team, .reviews, .footer-content{
    max-width: 1170px;
    margin:100px auto 0;

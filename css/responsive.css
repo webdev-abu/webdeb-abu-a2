@@ -123,6 +123,12 @@
       padding: 16px 70px;
       cursor: pointer;
     }
+    .calculetor .section-content {
+      text-align: center;
+   }
+   .calculetor .section-content .section-description{
+      padding: 0 50px;
+   }
     /* team responsive */
     .team-members {
       grid-template-columns: repeat(1, 1fr);
@@ -202,6 +208,9 @@
 @media screen and (min-width:993px){
    body{
       background-color: #000000;
+    }
+    main{
+      margin: 0px;
     }
    header, .habits, .extra-run, .calculetor, .calculetor-items, .team,  .reviews, .footer-content{
       width: 90%;
