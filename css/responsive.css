@@ -1,6 +1,10 @@
 @media screen and (max-width:576px){
-    body{
+   
+   main, header, .footer-content{
         margin:0 20px;
+     }
+     header{
+      margin-top: 52px;
      }
      /* shared style */
      .section-content .section-title{
@@ -125,6 +129,9 @@
     .team-members .team-member-area:first-child, .team-members .team-member-area:nth-child(4){
       display: none;
     }
+    .footer-items{
+      flex-direction: column;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     body{
@@ -162,6 +169,25 @@
    .submit-btn{
       padding: 16px 70px;
     }
+    .footer-items{
+      flex-wrap: wrap;
+    }
+    .footer-manu{
+      width: 50%;
+    }
+    /* .footer-brand {
+      width: 100%;
+  }
+  .footer-brand-title{
+   max-width: 843px;
+  }
+  .footer-description{
+   max-width: 443px;
+  } */
+  .footer-description{
+   max-width: 443px;
+   margin-bottom: 100px;
+  }
     
 }
 @media screen and (min-width:993px){

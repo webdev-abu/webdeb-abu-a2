@@ -26,10 +26,11 @@
     box-sizing: border-box;
  }
  body{
+   background-color: #000000;
+ }
+  header, .habits, .extra-run, .calculetor, .calculetor-items, .team, .footer-content{
    max-width: 1170px;
-    margin:0 auto;
-    background-color: #000000;
-    border: 1px solid red;
+   margin:0 auto;
  }
  /* share style */
  .btn, .submit-btn {
@@ -273,7 +274,6 @@
 }
 /* calculetor style */
 .calculetor{
-   background-color: #222222;
    padding:34px 20px 40px;
 }
 .calculetor .section-content{
@@ -282,6 +282,10 @@
 .calculetor .section-content .section-description{
    padding-left: 0px ;
    padding-right: 100px;
+}
+.cal-form{
+   padding:34px 20px 40px;
+   background-color: #222222;
 }
 .calculetor-items{
    display: flex;
@@ -365,7 +369,7 @@
 
  /* Team style */
  .team{
-   
+   margin-bottom: 88px;
  }
  .team-members{
    background-color: rgba(255, 255, 255,0.1);
@@ -410,4 +414,61 @@
  .team-content .team-member-detication{
    font-size: 0.8rem;
    color: rgba(255, 255, 255,0.5);
+ }
+ /* Footer style */
+ footer{
+   background-color: rgba(255, 255, 255,0.1);
+   margin: 0;
+ }
+ .footer-content{   
+   padding-top: 66px;
+ }
+ .footer-items{
+   display: flex;
+   justify-content: space-between;
+ }
+ .footer-brand{
+   max-width: 443px;
+ }
+ .footer-brand-title{
+   font-size: 4.3rem;
+   font-weight: 900;
+   font-style: italic;
+   color: #E6533C;
+   margin-bottom:20px ;
+ }
+ .footer-description{
+   font-size: 0.8rem;
+   color: rgba(255, 255, 255,0.5);
+ }
+ 
+ .footer-manu .footer-manu-title{
+   font-size: 2rem;
+   color: rgba(255, 255, 255,1);
+   margin-bottom: 40px;
+ }
+ .footer-manu .footer-links{
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   gap: 20px;
+
+ }
+ .footer-manu .footer-links .footer-item{
+   list-style: none;
+ }
+ .footer-manu .footer-links .footer-item .footer-link{
+   text-decoration: none;
+   font-size: 1.4rem;
+   color: rgba(255, 255, 255,0.5);
+ }
+ .footer-hr{
+   background-color: rgba(255, 255, 255, 0.1);
+   margin-top: 66px;
+ }
+ .footer-end p{
+   font-size: 1.25rem;
+   color: rgba(255, 255, 255,0.5);
+   margin: 36px 0;
+   text-align: center;
  }
