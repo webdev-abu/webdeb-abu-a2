@@ -25,12 +25,13 @@
     padding: 0;
     box-sizing: border-box;
  }
+ 
  body{
    background-color: #000000;
  }
-  header, .habits, .extra-run, .calculetor, .calculetor-items, .team, .footer-content{
+  header, .habits, .extra-run, .calculetor, .calculetor-items, .team, .reviews, .footer-content{
    max-width: 1170px;
-   margin:0 auto;
+   margin:100px auto 0;
  }
  /* share style */
  .btn, .submit-btn {
@@ -61,13 +62,10 @@
  .btn-bg-remove:hover, .btn-bg-remove:focus, .btn-bg-remove:active{
     background-color: #E6533C;
  }
- section{
-   margin-top: 100px;
- }
 
  .section-content{
    max-width: 670px;
-   margin: 0 auto 58px;
+   margin: 80px auto 58px;
    text-align: center;
  }
  .section-content .section-title{
@@ -262,7 +260,9 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 30px;
+   /* margin: 30px; */
+   border-radius: 18px;
+   padding: 33px 35px;
 }
 .extra-run .section-content{
    max-width: 443px;
@@ -273,9 +273,9 @@
    padding: 0;
 }
 /* calculetor style */
-.calculetor{
+/* .calculetor{
    padding:34px 20px 40px;
-}
+} */
 .calculetor .section-content{
    text-align: start;
 }
@@ -313,9 +313,6 @@
    font-size: 1rem;
    color: #FFFFFF;
 }
-/* .calculetor-form{
-   max-width: 580px;
-} */
 .calculetor-form h3{
    font-size: 1.75rem;
    font-weight: 900;
@@ -373,7 +370,9 @@
  }
  .team-members{
    background-color: rgba(255, 255, 255,0.1);
+   margin: 20px;
    padding: 20px;
+   border-radius: 18px;
    display: grid;   
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
@@ -414,6 +413,49 @@
  .team-content .team-member-detication{
    font-size: 0.8rem;
    color: rgba(255, 255, 255,0.5);
+ }
+ /* Reviews style */
+ .reviews-content{
+   
+ }
+ .review-item{
+   background-color: #222222;
+   padding: 30px 50px;
+   border-radius: 18px;
+   display: flex;
+   justify-content: space-between;
+   align-items: self-start;
+   gap: 30px;
+   margin-bottom: 30px;
+ }
+ .reviews-profile{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   text-align: center;
+ }
+ .reviews-profile h4{
+   font-size: 1.25rem;
+   color: rgba(255, 255, 255,1);
+ }
+ .review-message p{
+   max-width: 700px;
+   font-size: 0.8rem;
+   color: rgba(255, 255, 255,0.5);
+ }
+ .reviews-rating{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+ }
+ .reviews-rating i{
+   font-size: 1.25rem;
+   color: rgba(255, 255, 255,0.5);
+ }
+ .reviews-rating .checked{
+   color: #e6ea03;
  }
  /* Footer style */
  footer{
@@ -469,6 +511,6 @@
  .footer-end p{
    font-size: 1.25rem;
    color: rgba(255, 255, 255,0.5);
-   margin: 36px 0;
+   padding: 36px 0;
    text-align: center;
  }

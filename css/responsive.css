@@ -1,7 +1,7 @@
 @media screen and (max-width:576px){
    
-   main, header, .footer-content{
-        margin:0 20px;
+   header, .footer-content{
+        padding:20px;
      }
      header{
       margin-top: 52px;
@@ -97,6 +97,7 @@
     .extra-run {
       flex-direction: column;
       gap: 30px;
+      margin: 30px;
     }
     .extra-run .section-content{
       width: 100%;
@@ -129,14 +130,31 @@
     .team-members .team-member-area:first-child, .team-members .team-member-area:nth-child(4){
       display: none;
     }
+    /* Reviews responsive */
+    .reviews-content {
+      margin: 0 30px;
+  }
+    .review-item{
+      flex-direction: column;
+      padding: 30px;
+    }
+    
+    .review-message p{
+      width: 100%;
+    }
     .footer-items{
       flex-direction: column;
     }
 }
-@media screen and (min-width:576px) and (max-width:992px){
-    body{
-        margin:0 30px;
+@media screen and (min-width:576px) and (max-width:992px){   
+
+   header, .habits, .extra-run, .calculetor, .calculetor-items, .team,  .reviews, .footer-content{
+      padding:20px;
      }
+     .extra-run{
+      padding: 20px;
+      margin: 0 30px;
+  }
      header .navbar .nav-list{
         gap: 20px;
      }
@@ -175,15 +193,6 @@
     .footer-manu{
       width: 50%;
     }
-    /* .footer-brand {
-      width: 100%;
-  }
-  .footer-brand-title{
-   max-width: 843px;
-  }
-  .footer-description{
-   max-width: 443px;
-  } */
   .footer-description{
    max-width: 443px;
    margin-bottom: 100px;
@@ -192,6 +201,10 @@
 }
 @media screen and (min-width:993px){
    body{
-      margin:0 auto;
+      background-color: #000000;
+    }
+   header, .habits, .extra-run, .calculetor, .calculetor-items, .team,  .reviews, .footer-content{
+      width: 90%;
    }
+     
 }
